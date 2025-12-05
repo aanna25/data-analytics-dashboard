@@ -1,0 +1,39 @@
+.wrapper {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--card);
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.valueContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--card);
+  line-height: 1;
+  margin-right: 5px;
+}
+
+.unit {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--card);
+  line-height: 1.5;
+}

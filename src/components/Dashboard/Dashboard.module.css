@@ -1,0 +1,69 @@
+.dashboardContainer {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.topRow {
+  display: flex;
+  gap: 25px;
+}
+
+.welcomeBlock {
+  flex: 1 1 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.metricsGroup {
+  flex: 3 1 75%;
+  display: flex;
+  gap: 25px;
+}
+
+.metricsGroup > * {
+  flex: 1 1 0;
+  width: auto;
+}
+
+.bottomRow {
+  display: flex;
+  gap: 25px;
+  flex-grow: 1;
+}
+
+.bottomRow > *:nth-child(1) {
+  flex: 2 1 66%;
+  min-height: 400px;
+}
+
+.rightColumnStack {
+  flex: 1 1 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.rightColumnStack > * {
+  flex-grow: 1;
+}
+
+.welcomeTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+.welcomeSubtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin: 0;
+  opacity: 0.9;
+}
