@@ -1,0 +1,47 @@
+@import "modern-normalize/modern-normalize.css";
+
+/* main styles */
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --color-bg: #0c0d0d;
+  --card: #191919;
+  --color-text: #fff;
+  --light-gray: #dadde1;
+  --yellow: #F5BF5B;
+  --purple: #B180EB;
+  --mint: #D0E890;
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}

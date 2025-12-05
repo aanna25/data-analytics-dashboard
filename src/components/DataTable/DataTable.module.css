@@ -1,0 +1,84 @@
+.wrapper {
+  background-color: var( --card);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  padding: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 30%; 
+  max-width: 400px;
+  min-height: 350px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #333333; 
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 18px;
+  border: 1px solid #444444;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  cursor: default;
+  background-color: transparent; 
+}
+
+.item:hover {
+  background-color: #2b2b2b; 
+  border-color: #777777; 
+}
+
+.list > .item:first-child {
+  background-color: #b080eb75;
+}
+.list > .item:nth-child(2),
+.list > .item:nth-child(3) {
+  background-color: #2c2c2c;
+}
+
+.postTitle {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 0.95rem;
+  color: var(--color-text); 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.count {
+  background-color: #d1e8908e;
+  border: 1px solid var(--mint);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+.list > .item:first-child .count {
+  border: 1px solid var(--purple);
+  background-color: #b080eb75;
+  font-size: 0.9rem;
+}

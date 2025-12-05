@@ -1,0 +1,28 @@
+.header {
+  padding: 24px 0;
+ border-bottom: 1px solid var(--light-gray);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo img {
+  height: 28px;
+  width: auto;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .logo img {
+    height: 22px;
+  }
+}
