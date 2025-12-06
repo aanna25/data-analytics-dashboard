@@ -14,12 +14,12 @@ The goal of this project was to implement a clean, flexible layout using Flexbox
 - **Metrics Cards:** Displays calculated key performance indicators (e.g., Average Posts per User, TODO completion rate).
 - **Data Visualization:** Includes interactive charts powered by Chart.js (User Activity Bar Chart, TODO Completion Pie Chart).
 - **Dynamic Data Table:** Shows the Top 5 most commented posts.
-- **Responsive Design:** Optimized for desktop and mobile viewing.
 - **Modern Styling:** Utilizes CSS Modules for scoped, maintainable styles and a dark-themed aesthetic.
 
 ## Tech Stack 💻
 
 - **Frontend:** React
+- **Build Tool:** **Vite** (Used for fast development server and optimized production build)
 - **Styling:** CSS Modules
 - **Charts:** Chart.js / react-chartjs-2
 - **Layout:** Flexbox
