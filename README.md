@@ -6,7 +6,7 @@ The goal of this project was to implement a clean, flexible layout using Flexbox
 
 ## Preview 📸
 
-![Preview](assets/img-dashboard.jpg)
+![Preview](assets/img-dashboard.png)
 
 ## Key Features
 
