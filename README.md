@@ -1,16 +1,62 @@
-# React + Vite
+# Dynamic Data Dashboard 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and visually appealing dashboard application built with React to fetch, process, and display key metrics and activity data from a placeholder API.
 
-Currently, two official plugins are available:
+The goal of this project was to implement a clean, flexible layout using Flexbox and modern CSS techniques, focusing on component reusability and data visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Preview 📸
 
-## React Compiler
+![Preview](assets/img-dashboard.jpg)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Key Features
 
-## Expanding the ESLint configuration
+- **Data Aggregation:** Fetches data from multiple API endpoints (Users, Posts, Comments, Todos).
+- **Metrics Cards:** Displays calculated key performance indicators (e.g., Average Posts per User, TODO completion rate).
+- **Data Visualization:** Includes interactive charts powered by Chart.js (User Activity Bar Chart, TODO Completion Pie Chart).
+- **Dynamic Data Table:** Shows the Top 5 most commented posts.
+- **Responsive Design:** Optimized for desktop and mobile viewing.
+- **Modern Styling:** Utilizes CSS Modules for scoped, maintainable styles and a dark-themed aesthetic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack 💻
+
+- **Frontend:** React
+- **Styling:** CSS Modules
+- **Charts:** Chart.js / react-chartjs-2
+- **Layout:** Flexbox
+
+## Installation and Setup ⚙️
+
+Follow these steps to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm or Yarn
+
+### Steps
+
+Clone the repository:
+```bash
+git clone https://github.com/aanna25/data-analytics-dashboard
+cd data-analytics-dashboard
+```
+
+Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## Data Source 🧩
+
+This project relies on data fetched from the JSONPlaceholder REST API to simulate real-world user activity, posts, comments, and todos.
+
+**Note:** Due to the structured nature of the JSONPlaceholder data, the User Activity chart currently shows uniform bar heights (10 posts per user).

@@ -74,7 +74,7 @@ const UserActivityChart = ({ data }) => {
         },
         ticks: {
           color: "#FFFFFF",
-          stepSize: 2,
+          // stepSize: 2,
         },
         grid: {
           color: "rgba(68, 68, 68, 0.5)",

@@ -19,10 +19,3 @@
   height: 28px;
   width: auto;
 }
-
-/* mobile */
-@media (max-width: 768px) {
-  .logo img {
-    height: 22px;
-  }
-}
